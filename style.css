@@ -6,18 +6,30 @@
 }
 
 
-
-
-
-
-
-
 .blocco-immagine{
     width: 33%;
     display: inline-block;
+    position:relative
+    
+    
     
 }
-    
+.heart{
+    position: absolute;
+    width: 100px;
+    background-color: blueviolet;
+    top:40px;
+    right:0;
+    text-align: center;
+    font-size: 60px;
+   
+}
+
+
+
+
+
+
 
     
 
