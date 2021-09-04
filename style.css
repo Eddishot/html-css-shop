@@ -10,9 +10,25 @@
     margin-top:20px;
 }
 
+.blocco-immagine{
+    width: 33%;
+    display: inline-block;
+    position: relative;
+   
+}
+    
+
+.immagine{
+    width: 100%;
+}
+
+
 .prezzo-1{
     color: red;
+    font-weight: bolder;
 }
+
+
 .titolo-bold{
     font-weight: 700;
     font-size: large;
@@ -22,33 +38,73 @@
     text-decoration: line-through;
 
 }
-    
-    
-    
 
-
-.blocco-immagine{
-    width: 33%;
-    display: inline-block;
-    position: relative;
-   
-}
-    
-.heart{
+.immagine-overlay{
     position: absolute;
-    width: 50px;
-    background-color: blueviolet;
-    top:50px;
-    text-align: center;
-    
-    font-size: 50px;
-    right:0;
-   
-    
-}
-.immagine{
     width: 100%;
+    display: none;
+    top: 0;
+
+    
 }
+
+.blocco-immagine:hover .immagine-overlay{
+    display: block;
+    
+}
+ 
+
+.discount{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    background-color: rgb(216, 62, 62);
+    width: 50px;
+    padding: 5px;
+    bottom: 110px;
+    left:0px
+
+}
+    
+    
+.sostenibile{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    background-color: rgb(17, 92, 17);
+    padding: 5px;
+    bottom: 110px;
+    left: 55px;
+}
+
+.sostenibile-1{
+    position: absolute;
+    padding: 5px;
+    color: whi;
+    background-color: rgb(17, 92, 17) ;
+    bottom: 110px;
+    left:0px
+    
+}
+
+
+.heart{
+position: absolute;
+width: 50px;
+background-color: rgb(255, 255, 255);
+top:30px;
+text-align: center;
+font-size: 30px;
+right:0;
+}
+
+
+   
+  
+
+    
+    
+    
+
+
 
     
     
